@@ -294,7 +294,7 @@ python upscale_cli.py --input_dir caps --model animevideov3 --half
   * `general-wdn-x4v3`: 노이즈 많은 스캔/저화질
   * `animevideov3`: 애니/일러스트/라인아트
 * `--tile`: OOM 방지. 128\~256 권장. 너무 작으면 경계 인접 아티팩트 가능 → `tile_pad`가 완화
-* `--outscale`: 결과 배율. 1~4 권장(모델은 x4 학습). 2~3배면 용량-품질 균형
+* `--outscale`: 결과 배율. 1\~4 권장(모델은 x4 학습). 2\~3배면 용량-품질 균형
 * `--device`: `auto`(CUDA 있으면 사용), `cuda`, `cpu`
 * `--half`: CUDA에서 VRAM 절약/속도 향상
 
